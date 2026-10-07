@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bottle Roll Incremental</title>
+    <meta name="description" content="Roll glass bottles down the stairs, film the smash and grow your channel." />
+    <meta name="build" content="7212ca4" />
+    <meta name="theme-color" content="#12161b" />
+    <!-- What a shared link shows. The picture must be a full address. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Bottle Roll Incremental" />
+    <meta property="og:description" content="Roll glass bottles down the stairs, film the smash and grow your channel." />
+    <meta property="og:url" content="https://elarion-game-dev.github.io/bottle-roll-incremental/" />
+    <meta property="og:image" content="https://elarion-game-dev.github.io/bottle-roll-incremental/preview.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="A glass bottle shattering on a flight of stairs" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bottle Roll Incremental" />
+    <meta name="twitter:description" content="Roll glass bottles down the stairs, film the smash and grow your channel." />
+    <meta name="twitter:image" content="https://elarion-game-dev.github.io/bottle-roll-incremental/preview.jpg" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <!-- The loading screen is styled here, so it shows before anything else has arrived. -->
+    <style>html,body{background:#12161b;height:100%;margin:0}#loading{z-index:50;color:#f3f5f7;background:#12161b;place-items:center;font-family:Segoe UI,system-ui,-apple-system,Helvetica Neue,Arial,sans-serif;transition:opacity .35s;display:grid;position:fixed;inset:0}#loading.done{opacity:0;pointer-events:none}#loading .box{text-align:center;width:min(340px,80vw)}#loading h1{margin:0 0 14px;font-size:24px;font-weight:750}#loading .track{background:#ffffff1f;border-radius:2px;height:4px;overflow:hidden}#loading .bar{transform-origin:0;background:#7fd6c2;width:100%;height:100%;transition:transform .25s;transform:scaleX(.04)}#loading p{color:#b4bdc7;min-height:1.4em;margin:12px 0 0;font-size:14px}#loading.failed .bar{background:#ff8f7a}</style>
+    <script type="module" crossorigin src="./assets/index-BQAHUNQv.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/three-DBxOWIyy.js">
+    <link rel="modulepreload" crossorigin href="./assets/physics-BR_-CEU_.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-BLLlAqtY.css">
+  </head>
+  <body>
+    <canvas id="stage"></canvas>
+    <div id="ui"></div>
+    <div id="loading" role="status" aria-live="polite">
+      <div class="box">
+        <h1>Bottle Roll Incremental</h1>
+        <div class="track"><div class="bar" id="loading-bar"></div></div>
+        <p id="loading-line">Loading</p>
+        <noscript><p>This game needs JavaScript switched on.</p></noscript>
+      </div>
+    </div>
+  </body>
+</html>
